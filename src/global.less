@@ -1,0 +1,97 @@
+@import '~antd/dist/antd';
+
+//https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+
+@font-family: 'Work Sans', sans-serif;
+@font-weight-normal: 300;
+@font-weight-bold: 500;
+
+//spacing
+@margin-size: 1ch;
+
+//shadows
+@shadow-light-inset: inset 0px 0px 5px -3px rgba(0, 0, 0, 0.55);
+@shadow-light: 0px 0px 5px -3px rgba(0, 0, 0, 0.55);
+
+#root{
+  padding: @margin-size;
+}
+
+/**
+CSS utils
+ */
+
+h1, h2, h3 {
+  font-weight: @font-weight-normal !important;
+  //color: @primary-color !important;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+//margins
+.m0 {
+  margin: 0;
+}
+
+.ml {
+  margin-left: @margin-size;
+}
+
+.mr {
+  margin-right: @margin-size;
+}
+
+.mt {
+  margin-top: @margin-size;
+}
+
+.mb {
+  margin-bottom: @margin-size;
+}
+
+//padding
+.p0 {
+  padding: 0;
+}
+
+.p1 {
+  padding: @margin-size;
+}
+
+.pl {
+  padding-left: @margin-size;
+}
+
+.pr {
+  padding-right: @margin-size;
+}
+
+.pt {
+  padding-top: @margin-size;
+}
+
+.pb {
+  padding-bottom: @margin-size;
+}
+
+.shadow {
+  box-shadow: @shadow-light;
+}
+
+.debug {
+  background-color: rgba(213, 245, 227, 0.4);
+}
+
+//layout
+.h-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box-align-center {
+  justify-content: center;
+}
