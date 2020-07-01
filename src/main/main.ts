@@ -17,10 +17,11 @@ function createWindow() {
 
     mainWindow = new BrowserWindow({
         title: app.getName(),
-        width: 800,
+        width: 800*2,
         height: 600,
         webPreferences: {
             nodeIntegration: true,
+            enableRemoteModule: true
         },
     });
 

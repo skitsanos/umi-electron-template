@@ -17,7 +17,7 @@ export default () =>
         <Title>My app</Title>
 
         <Row gutter={[10, 10]}>
-            <Col span={8}>Load mind map</Col>
+            <Col span={8}>Load a file </Col>
             <Col span={8}>Analysis</Col>
             <Col span={8}>Result</Col>
         </Row>
@@ -31,7 +31,7 @@ export default () =>
                         properties: ['openFile'],
                         title: 'Open file'
                     });
-                    if (selectedFiles.length > 0)
+                    if (Boolean(selectedFiles) && selectedFiles.length > 0)
                     {
                         //ok
                     }
@@ -43,7 +43,9 @@ export default () =>
                     <Step title="In Progress" description="This is a description."/>
                     <Step title="Waiting" description="This is a description."/>
                 </Steps></Col>
-            <Col span={8}></Col>
+            <Col span={8}>
+                Result
+            </Col>
         </Row>
     </>;
 };

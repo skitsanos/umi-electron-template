@@ -4,6 +4,7 @@ import ApplicationTheme from './src/theme';
 
 export default defineConfig({
     theme: ApplicationTheme,
+
     electronBuilder: {
         outputDir: 'dist_electron', //默认打包目录
         //externals: ['serialport'],  //不配置的无法使用
