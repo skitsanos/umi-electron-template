@@ -28,7 +28,7 @@
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.2",
     "antd": "^4.3.5",
-    "lint-staged": "^11.2.6",
+    "lint-staged": "^12.0.3",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@types/electron-devtools-installer": "^2.2.0",
-    "@types/node": "^12.12.43",
+    "@types/node": "^16.11.8",
     "chance": "^1.1.6",
     "electron": "^9.0.1",
     "electron-builder": "^22.7.0",
