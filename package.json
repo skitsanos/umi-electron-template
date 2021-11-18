@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@types/electron-devtools-installer": "^2.2.0",
-    "@types/node": "^12.12.43",
+    "@types/node": "^16.11.8",
     "chance": "^1.1.6",
     "electron": "^9.0.1",
     "electron-builder": "^22.7.0",
