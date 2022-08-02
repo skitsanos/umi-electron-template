@@ -40,7 +40,7 @@
     "@types/electron-devtools-installer": "^2.2.0",
     "@types/node": "^18.0.0",
     "chance": "^1.1.6",
-    "electron": "^19.0.0",
+    "electron": "^20.0.0",
     "electron-builder": "^23.0.3",
     "electron-devtools-installer": "^3.0.0",
     "electron-webpack": "^2.8.2",
