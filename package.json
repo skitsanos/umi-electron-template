@@ -27,7 +27,7 @@
     "@umijs/hooks": "^1.9.2",
     "@umijs/preset-react": "2.x",
     "@umijs/test": "^4.0.0",
-    "antd": "^4.3.5",
+    "antd": "^5.0.0",
     "lint-staged": "^13.0.0",
     "prettier": "^2.4.1",
     "react": "^16.12.0",
