@@ -46,7 +46,7 @@
     "electron-webpack": "^2.8.2",
     "electron-webpack-ts": "^4.0.1",
     "typescript": "^4.7.4",
-    "umi-plugin-electron-builder": "^2.1.11"
+    "umi-plugin-electron-builder": "^4.0.0"
   },
   "electronWebpack": {
     "renderer": null
