@@ -23,19 +23,19 @@ Make sure, first, that you have Node.js installed
 
 ```sh
 $node --version
-v13.7.0
+v20.14.0
 ```
 
-Clone umi-app-template code base:
+Clone umi-electron-template code base:
 
 ```sh
-$git clone https://github.com/skitsanos/umi-app-template.git
+$git clone https://github.com/skitsanos/umi-electron-template.git
 ```
 
 Get inside into downloaded folder
 
 ```sh
-$cd /umi-app-template
+$cd /umi-electron-template
 ```
 
 Inside you will have the following folder structure
@@ -47,7 +47,6 @@ Inside you will have the following folder structure
 .umirc.js
 package.json
 README.md
-webpack.config.js
 ```
 
 Now you can install the dependencies

@@ -1,6 +1,6 @@
-/.idea/
-/node_modules/
-/src/.umi/
-/src/.umi-production/
-/dist/
-/dist_electron/
+.idea/
+node_modules/
+src/.umi*/
+dist/
+dist_electron/
+*.lock

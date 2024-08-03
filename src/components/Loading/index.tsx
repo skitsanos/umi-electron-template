@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default props =>
 {
     const {isLoading/*, timedOut, error, retry*/} = props;
