@@ -35,7 +35,7 @@
     "@types/react": "^18.3.3",
     "chance": "^1.1.12",
     "electron": "^32.0.0",
-    "electron-builder": "^24.13.3",
+    "electron-builder": "^25.0.5",
     "electron-devtools-installer": "^3.2.0",
     "electron-webpack": "^2.8.2",
     "electron-webpack-ts": "^4.0.1",
