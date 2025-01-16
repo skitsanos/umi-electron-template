@@ -30,7 +30,7 @@
     "yorkie": "^2.0.0"
   },
   "devDependencies": {
-    "@types/electron-devtools-installer": "^2.2.5",
+    "@types/electron-devtools-installer": "^4.0.0",
     "@types/node": "^22.1.0",
     "@types/react": "^19.0.1",
     "chance": "^1.1.12",
