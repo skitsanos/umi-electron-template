@@ -22,7 +22,7 @@
     "electron:build:linux": "umi build electron --linux"
   },
   "dependencies": {
-    "antd": "^5.19.4",
+    "antd": "^6.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-entities": "^1.3.0",
