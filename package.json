@@ -39,7 +39,7 @@
     "electron-devtools-installer": "^4.0.0",
     "electron-webpack": "^2.8.2",
     "electron-webpack-ts": "^4.0.1",
-    "typescript": "^5.5.4",
+    "typescript": "^6.0.0",
     "umi-plugin-electron-builder": "^4.0.8"
   },
   "electronWebpack": {
